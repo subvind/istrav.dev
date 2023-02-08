@@ -15,7 +15,7 @@
 
 <br />
 <br />
-<div style="max-width: 1000px; margin: 0 auto;">
+<div style="width: 100%; max-width: 1000px; margin: 0 auto;">
   <div class="router">
     <div class="WiFi">o---<a href="/">isTrav</a>---o <span style="color: #888;">// creational patterns</span> <span style="float: right; color: #888;"><span style="color: #ffff00;">o---(</span><span style="color: #ff0000;">RAM</span><span style="color: #ffff00;">)</span></span></div>
   </div>
@@ -23,40 +23,40 @@
 <br />
 <br />
 <div class="container creational">
-  <div class="item" style="border: 1px solid #ff0000;">
+  <div class="item" style="border: 2px solid #ff0000;">
     <video class="log" controls autoplay muted loop>
-      <source src="./block-chain/BLOCK-CHAIN.mp4" type="video/mp4" />
+      <source src="/RAM/creational/block-chain/BLOCK-CHAIN.mp4" type="video/mp4" />
     </video>
     <hr style="border-color: #ff0000; margin: 0;">
-    <span style="color: #888;">(<span style="color: #ffff00;">x</span>)>-&#123;<span style="color: #ff0000;">prototype</span>}=[</span><a href="./block-chain/" class="title">block-chain</a><span style="color: #888;">]</span>
+    <span style="color: #888;">(<span style="color: #ffff00;">x</span>)>-&#123;<span style="color: #ff0000;">prototype</span>}=[</span><a href="/RAM/creational/block-chain/" class="title">block-chain</a><span style="color: #888;">]</span>
   </div>
-  <div class="item" style="border: 1px solid #ff0000;">
+  <div class="item" style="border: 2px solid #ff0000;">
     <video class="log" controls autoplay muted loop>
-      <source src="./semiconductor/SEMICONDUCTOR.mp4" type="video/mp4" />
+      <source src="/RAM/creational/semiconductor/SEMICONDUCTOR.mp4" type="video/mp4" />
     </video>
     <hr style="border-color: #ff0000; margin: 0;">
-    <span style="color: #888;">(<span style="color: #ffff00;">x</span>)>-&#123;<span style="color: #ff0000;">factory method</span>}=[</span><a href="./machine/" class="title">machine</a><span style="color: #888;">]</span>
+    <span style="color: #888;">(<span style="color: #ffff00;">x</span>)>-&#123;<span style="color: #ff0000;">factory method</span>}=[</span><a href="/RAM/creational/machine/" class="title">machine</a><span style="color: #888;">]</span>
   </div>
-  <div class="item" style="border: 1px solid #ff0000;">
+  <div class="item" style="border: 2px solid #ff0000;">
     <video class="log" controls autoplay muted loop>
-      <source src="./semiconductor/SEMICONDUCTOR.mp4" type="video/mp4" />
+      <source src="/RAM/creational/semiconductor/SEMICONDUCTOR.mp4" type="video/mp4" />
     </video>
     <hr style="border-color: #ff0000; margin: 0;">
-    <span style="color: #888;">(<span style="color: #ffff00;">x</span>)>-&#123;<span style="color: #ff0000;">abstract factory</span>}=[</span><a href="./semiconductor/" class="title">semiconductor</a><span style="color: #888;">]</span>
+    <span style="color: #888;">(<span style="color: #ffff00;">x</span>)>-&#123;<span style="color: #ff0000;">abstract factory</span>}=[</span><a href="/RAM/creational/semiconductor/" class="title">semiconductor</a><span style="color: #888;">]</span>
   </div>
-  <div class="item" style="border: 1px solid #ff0000;">
+  <div class="item" style="border: 2px solid #ff0000;">
     <video class="log" controls autoplay muted loop>
-      <source src="./shop/SHOP.mp4" type="video/mp4" />
+      <source src="/RAM/creational/shop/SHOP.mp4" type="video/mp4" />
     </video>
     <hr style="border-color: #ff0000; margin: 0;">
-    <span style="color: #888;">(<span style="color: #ffff00;">x</span>)>-&#123;<span style="color: #ff0000;">builder</span>}=[</span><a href="./shop/" class="title">shop</a><span style="color: #888;">]</span>
+    <span style="color: #888;">(<span style="color: #ffff00;">x</span>)>-&#123;<span style="color: #ff0000;">builder</span>}=[</span><a href="/RAM/creational/shop/" class="title">shop</a><span style="color: #888;">]</span>
   </div>
-  <div class="item" style="border: 1px solid #ff0000;">
+  <div class="item" style="border: 2px solid #ff0000;">
     <video class="log" controls autoplay muted loop>
-      <source src="../../shredder.mp4" type="video/mp4" />
+      <source src="/shredder.mp4" type="video/mp4" />
     </video>
     <hr style="border-color: #ff0000; margin: 0;">
-    <span style="color: #888;">(<span style="color: #ffff00;">x</span>)>-&#123;<span style="color: #ff0000;">singleton</span>}=[</span><a href="./storyboard/" class="title">storyboard</a><span style="color: #888;">]</span>
+    <span style="color: #888;">(<span style="color: #ffff00;">x</span>)>-&#123;<span style="color: #ff0000;">singleton</span>}=[</span><a href="/RAM/creational/storyboard/" class="title">storyboard</a><span style="color: #888;">]</span>
   </div>
 </div>
 <br />

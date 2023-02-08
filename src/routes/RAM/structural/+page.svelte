@@ -15,7 +15,7 @@
 
 <br />
 <br />
-<div style="max-width: 1000px; margin: 0 auto;">
+<div style="width: 100%; max-width: 1000px; margin: 0 auto;">
   <div class="router">
     <div class="WiFi">o---<a href="/">isTrav</a>---o <span style="color: #888;">// structural patterns</span> <span style="float: right; color: #888;"><span style="color: #ffff00;">o---(</span><span style="color: #ff0000;">RAM</span><span style="color: #ffff00;">)</span></span></div>
   </div>

@@ -29,15 +29,15 @@
 <br />
 <br />
 <div class="container ram-top">
-  <div class="item" style="border: 1px solid #0000ff;">
+  <div class="item" style="border: 2px solid #0000ff;">
     <a href="./RAM/behavioral/" class="title">behavioral</a>
   </div>
   <br />
-  <div class="item" style="border: 1px solid #00ff00;">
+  <div class="item" style="border: 2px solid #00ff00;">
     <a href="./RAM/structural/" class="title">structural</a>
   </div>
   <br />
-  <div class="item" style="border: 1px solid #ff0000;">
+  <div class="item" style="border: 2px solid #ff0000;">
     <a href="./RAM/creational/" class="title">creational</a>
   </div>
 </div>
@@ -51,15 +51,15 @@
   </video>
 </div>
 <div class="container ram-bottom">
-  <div class="item" style="border: 1px solid #ff0000;">
+  <div class="item" style="border: 2px solid #ff0000;">
     <a href="./RAM/creational/" class="title">creational</a>
   </div>
   <br />
-  <div class="item" style="border: 1px solid #00ff00;">
+  <div class="item" style="border: 2px solid #00ff00;">
     <a href="./RAM/structural/" class="title">structural</a>
   </div>
   <br />
-  <div class="item" style="border: 1px solid #0000ff;">
+  <div class="item" style="border: 2px solid #0000ff;">
     <a href="./RAM/behavioral/" class="title">behavioral</a>
   </div>
 </div>
@@ -108,7 +108,6 @@
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 1);
     overflow: hidden;
     background: #000;
-    border: 0.2em solid #000;
   }
   .console {
     margin: 2.5em auto;

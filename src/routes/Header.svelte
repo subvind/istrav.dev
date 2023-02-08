@@ -6,6 +6,7 @@
 	import 'air-datepicker/air-datepicker.css';
 	import localeEn from 'air-datepicker/locale/en';
 
+	let power: boolean = true;
 	let clock: string = "";
 
 	onMount(() => {
@@ -20,14 +21,14 @@
 		});
 		setInterval(() => {
 			clock = new Date().toLocaleTimeString('en-us', { year: "numeric", month: "short", day: "numeric" })
-		}, 1000)
+		}, 1000);
 	})
 </script>
 
 <header>
 	<div class="corner">
-		<a href="/">
-			<img src={logo} alt="SvelteKit" />
+		<a href="/" on:click={() => power = !power}>
+			<img src={logo} alt="SvelteKit" style={power ? null : "filter: invert(1);"}/>
 		</a>
 	</div>
 
@@ -69,9 +70,10 @@
 	#clock {
 		width: 175px;
 		height: 2em;
-		margin: 1em;
+		margin: 0.5em;
 		margin-left: -150px;
 		text-align: center;
+		border: 2px solid #000;
 	}
 
 	.corner {

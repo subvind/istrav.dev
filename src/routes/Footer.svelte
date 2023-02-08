@@ -9,7 +9,7 @@
     background: #000;
     text-align: center;
     padding: 0.5em;
-    border-top: 1px solid #fff;
+    border-top: 2px solid #fff;
   }
   footer a {
     color: #fff;

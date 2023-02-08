@@ -27,7 +27,7 @@
 
 <header>
 	<div class="corner">
-		<a href="#!" on:click={() => power = !power}>
+		<a href="#" on:click={() => power = !power}>
 			<img src={logo} alt="SvelteKit" style={power ? null : "filter: invert(1);"}/>
 		</a>
 	</div>

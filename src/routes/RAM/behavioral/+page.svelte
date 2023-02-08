@@ -4,7 +4,7 @@
 
   onMount(() => {
     var masonry2 = new MiniMasonry({
-      container: document.querySelector('.creational'),
+      container: document.querySelector('.behavioral'),
       surroundingGutter: true,
       gutterX: 40,
       gutterY: 40,
@@ -17,12 +17,12 @@
 <br />
 <div style="max-width: 1000px; margin: 0 auto;">
   <div class="router">
-    <div class="WiFi">o---<a href="/">isTrav</a>---o <span style="color: #888;">// creational patterns</span> <span style="float: right; color: #888;"><span style="color: #ffff00;">o---(</span><span style="color: #ff0000;">RAM</span><span style="color: #ffff00;">)</span></span></div>
+    <div class="WiFi">o---<a href="/">isTrav</a>---o <span style="color: #888;">// behavioral patterns</span> <span style="float: right; color: #888;"><span style="color: #ffff00;">o---(</span><span style="color: #ff0000;">RAM</span><span style="color: #ffff00;">)</span></span></div>
   </div>
 </div>
 <br />
 <br />
-<div class="container creational">
+<div class="container behavioral">
   <div class="item" style="border: 1px solid #ff0000;">
     <video class="log" controls autoplay muted loop>
       <source src="./block-chain/BLOCK-CHAIN.mp4" type="video/mp4" />
